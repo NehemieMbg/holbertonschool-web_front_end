@@ -2,7 +2,7 @@
 /*# sourceMappingURL=normalize.min.css.map */
 
 /* Css Style */
-* {
+*, *::before, *::after {
 	box-sizing: inherit;
 }
 
