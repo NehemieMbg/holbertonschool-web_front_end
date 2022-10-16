@@ -142,19 +142,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav .nav-item {
-	font-family: nav-item-font-family;
-	font-weight: nav-item-font-weight;
-	font-size: nav-item-font-size;
-	letter-spacing: nav-item-letter-spacing;
-	display: nav-item-display;
-	margin: nav-item-margin;
+	font-family: var(--nav-item-font-family);
+	font-weight: var(--nav-item-font-weight);
+	font-size: var(--nav-item-font-size);
+	letter-spacing: var(--nav-item-letter-spacing);
+	display: var(--nav-item-display);
+	margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
 	display: block;
-	padding-left: 100%;
-	padding-right: 100%;
-	padding-top: 50%;
-	padding-bottom: 50%;
-	color: nav-item-link-hover;
+
 }
