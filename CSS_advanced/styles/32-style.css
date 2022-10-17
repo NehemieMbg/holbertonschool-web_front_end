@@ -402,6 +402,6 @@ ul.row {
 	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-word:hover .card-outer {
+.card-work:hover .card-outer {
 	transform: scale(0.95);
 }
