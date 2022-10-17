@@ -197,7 +197,7 @@ ul.row {
 
 
 
-[for^="col"] {
+[class^="col"] {
 	float: left;
 	padding: 0.5rem;
 }
