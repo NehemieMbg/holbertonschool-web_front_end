@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--nav-item-link-hover);
 }
 
-ul .row {
+.row ul {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
@@ -185,6 +185,6 @@ ul .row {
 	color: var(--text-color);
 }
 
-.footer.row {
+.footer ul {
 	text-align: right;
 }
