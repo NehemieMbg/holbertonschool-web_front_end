@@ -207,9 +207,10 @@ ul.row {
 }
 
 .social-link {
-
+	display: block;
 }
 
-.social-link svg {
-	color: var(--text-color);
+/* social classs that also selects the svg children */
+.social-link > svg {
+    fill: var(--text-color);
 }
