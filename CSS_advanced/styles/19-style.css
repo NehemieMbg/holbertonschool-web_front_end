@@ -185,6 +185,6 @@ ul .row {
 	color: var(--text-color);
 }
 
-.footer ul {
+.footer.row {
 	text-align: right;
 }
