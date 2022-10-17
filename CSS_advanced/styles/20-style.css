@@ -190,7 +190,7 @@ ul.row {
 }
 
 .row::after {
-	content: none;
+	/* content: none; */
 	display: table;
-	float: none;
+	float: left none;
 }
