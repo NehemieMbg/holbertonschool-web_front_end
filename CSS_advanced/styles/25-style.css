@@ -56,6 +56,7 @@ html {
 	--button-font-size: var(--color-white);
 	--button-hover-text-decoration: none;
 	--button-hover-background: var(--color-primary);
+	--button-hover-color: var(--color-white);
 }
 
 .button {
@@ -65,6 +66,12 @@ html {
 	font-size: var(--button-font-size);
 	color: var(--button-color);
 	text-decoration: var(--button-text-decoration);
+}
+
+.button:hover {
+	color: var(--button-hover-color);
+	text-decoration: var(--button-hover-text-decoration);
+	background: var(--button-hover-background);
 }
 
 body {
@@ -218,6 +225,7 @@ ul.row {
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
 	background: var(--color-black);
+	--button-color: var(--color-white);
 }
 
 .footer-address {
