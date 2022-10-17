@@ -380,6 +380,7 @@ ul.row {
 }
 
 .card-testimonial .card-quote::before {
+	/* Puts the quote behind the text */
 	content: "\201C";
 	position: absolute;
 	top: -4.5rem;
