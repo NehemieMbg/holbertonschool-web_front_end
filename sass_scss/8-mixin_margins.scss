@@ -1,0 +1,17 @@
+// Margin mixin
+
+@mixin body {
+	margin: 0px 10px 0px 10px;
+}
+
+@mixin div {
+	margin: 0px 10px 0px 10px;
+}
+
+body {
+	@include body;
+}
+
+div {
+	@include div;
+}
