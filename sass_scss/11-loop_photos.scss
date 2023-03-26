@@ -1,0 +1,10 @@
+// Import & For each
+@import './11-photos.scss';
+
+$classes: string.split($list-names, " ");
+
+@each $class in $classes {
+	.photo-#{$class} {
+		background: image-url("photos/#{$class}.jpg") no-repeat;
+	}
+}
