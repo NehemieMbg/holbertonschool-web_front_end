@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="01-styles.css" />
+    <link rel="stylesheet" href="./01-styles.css" />
   </head>
   <body>
     <!– Header –>
@@ -38,12 +38,7 @@
           <label class="menu-icon" for="menu-btn">
             <span class="navicon"></span>
           </label>
-          <nav
-            class="navbar-menu"
-            id="a11y-primary-nav"
-            aria-label="Skip links"
-            tabindex="-1"
-          >
+          <nav class="navbar-menu">
             <ul class="nav">
               <li class="nav-item">
                 <a href="/" class="nav-link">Home</a>
@@ -97,7 +92,7 @@
       </div>
     </header>
     <!– Main –>
-    <main id="a11y-main-content" tabindex="-1">
+    <main>
       <h1 class="visually-hidden">Homepage</h1>
       <!– Hero section –>
       <section class="section-hero hero-homepage" data-section-theme="dark">
@@ -543,14 +538,4 @@
       </div>
     </footer>
   </body>
-  <!-- Skip links -->
-  <nav class="aria-label">
-    Skip links
-    <ul class="off-screen">
-      <li href="#a11y-primary-nav" class="skip-link">
-        Skip to primary navigation
-      </li>
-      <li href="#a11y-main-content" class="skip-link">Skip to main content</li>
-    </ul>
-  </nav>
 </html>
